@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rest-framework-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Alexander K <alexander_github@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+django = "^5.0.6"
+djangorestframework = "^3.15.1"
+pygments = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
